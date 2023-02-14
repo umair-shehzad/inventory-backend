@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://inventory-backend-api.onrender.com"],
+    origin: ["https://inventory-management-solution.onrender.com", "https://inventory-backend-api.onrender.com"],
     credentials: true,
   })
 );
